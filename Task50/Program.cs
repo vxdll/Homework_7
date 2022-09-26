@@ -19,7 +19,7 @@ if (i > m || j > n)
 }
 else
 {
-    Console.WriteLine($"Ваше значение: {matrix[i, j]}");
+    Console.WriteLine($"Ваше значение: {matrix[i-1, j-1]}");
 }
 
 
